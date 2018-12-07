@@ -1,0 +1,48 @@
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+*   Blog Content Careers
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+.mycareer{
+	float: left;
+	width: 100%;
+
+}
+#content .sale {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 30px;
+}
+#content .mycareer:last-child .sale{border-bottom: none;padding-bottom:0;}
+
+#content .sale h2{text-align: center;padding-bottom: 10px;padding-top: 30px;}
+#content .sale .box{width: 100%;margin-top: 20px;}
+#content .sale .box .group-box{margin-left: 10%; padding-bottom: 28px;}
+#content .sale .box .group-box h3{margin-bottom: 10px;}
+#content .sale .box .group-box .box-text li{display: flex;padding-top: 15px;}
+#content .sale .box .group-box .box-text .text-1{flex-grow: 1;width: 160px;}
+#content .sale .box .group-box .box-text .text-2{flex-grow: 1;width: 10px;}
+#content .sale .box .group-box .box-text .text-3{flex-grow: 1;width: 220px;}
+#content .sale .box .group-box .box-text .text-3 p{padding-right: 30px;}
+
+/*#content .sale .box .group-box .box-text .text-1-jobrespon{flex-grow: 1;width: 5px;}
+#content .sale .box .group-box .box-text .text-1-jobrespon li{margin-top: 3px;}
+#content .sale .box .group-box .box-text .text-2-jobrespon{flex-grow: 1;width: 340px;}
+#content .sale .box .group-box .box-text .text-2-jobrespon p{padding-right: 30px;}*/
+
+#content .sale .responsibility ul{padding: 0;}
+#content .sale .responsibility ul li{width: 345px !important;position: relative;margin-top: 15px;float: left;width: 100%;padding-left: 20px;}
+#content .sale .responsibility ul li:after{
+	content: '';
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	right: 30px;
+	top: 8px;
+}
+

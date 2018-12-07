@@ -1,0 +1,52 @@
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content SERVICES Page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .services {background-color: #F7F3EC;margin-top: 0px;}
+#content .services .group-services{padding-top: 50px;}
+#content .services .group-services .row{padding: 0;}
+/****************************************** Press Release For Media *************************************************/
+#content .services .section-services{padding: 0 0 50px 0;}
+#content .services .section-services .box-text{float: left;}
+#content .services .section-services .main-box-img{float: left;}
+/*even*/
+#content .services .section-services:nth-child(even) .box-text{float: right;}
+#content .services .section-services:nth-child(even) .main-box-img{float: right;}
+#content .services .section-services .box-text .box-release img{margin-left: 30%;padding-top: 30px;}
+#content .services .section-services .box-text .box-release h2{margin-top: -2px}
+#content .services .section-services .box-text p{padding-top: 10px;}
+#content .services .section-services .box-img{overflow: hidden;}
+#content .services .section-services .box-img img{width: 100%;height: 100%;}
+
+/****************************************** Billboard Media Buying *************************************************/
+#content .services .section-services .box-text .box-billboard img{margin-left: 43%;padding-top: 30px;}
+#content .services .section-services .box-text .box-billboard h2{margin-top: -2px}
+
+/****************************************** TV Media Buying *************************************************/
+#content .services .section-services .box-text .box-tv img{margin-left: 20%;padding-top: 30px;}
+#content .services .section-services .box-text .box-tv h2{margin-top: -2px}
+/****************************************** Radio Media Buying *************************************************/
+#content .services .section-services .box-text .box-radio img{margin-left: 30%;padding-top: 29px;}
+#content .services .section-services .box-text .box-radio h2{margin-top: -2px}
+
+/****************************************** Roadshow & Launching Activities *************************************************/
+#content .services .section-services .box-text .box-roadshow img{margin-left: 63%;padding-top: 30px;}
+#content .services .section-services .box-text .box-roadshow h2{margin-top: -2px}
+
+/****************************************** TVC & Radio Production *************************************************/
+#content .services .section-services .box-text .box-tvc img{margin-left: 28%;padding-top: 30px;}
+#content .services .section-services .box-text .box-tvc h2{margin-top: -2px}
+
+/****************************************** Printing And Production *************************************************/
+#content .services .section-services .box-text .box-printing img{margin-left: 31%;padding-top: 30px;}
+#content .services .section-services .box-text .box-printing h2{margin-top: -2px}
+
+/****************************************** Printing And Production *************************************************/
+#content .services .section-services .box-text .box-graphic img{margin-left: 45%;padding-top: 30px;}
+#content .services .section-services .box-text .box-graphic h2{margin-top: -2px}
+
+#content .services .button button{margin-top: 20px;}
+#content .paddb img{transition: 0.7s;}
+#content .paddb:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}

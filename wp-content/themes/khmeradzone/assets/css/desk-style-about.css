@@ -1,0 +1,122 @@
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content About Page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .overview .group-overview{padding-top: 50px;}
+#content .overview .box-img-text-left img{margin-left: 41%;}
+#content .overview .box-img-text-left h2{margin-top: -2px;}
+#content .overview .box-text-left p{ padding: 25px 20px 5px 0; }
+
+#content .overview .box-img-text-right{position: relative;height: 100%;overflow: hidden;}
+#content .overview .box-img-text-right .box-img{overflow: hidden;width: 100%;height: 100%;}
+#content .overview .box-img-text-right .box-img img{height: 100%;width: 100%;object-fit: cover;}
+#content .overview .box-img-text-right .box-text{position: absolute;bottom: 5%;color: #fff;text-align: center; width: 90%;left: 5%;z-index: 0;text-align: center;}
+#content .overview .box-img-text-right .box-text h3{line-height: 5px;}
+
+
+/********************************************************** Our vision *************************************************/
+#content .vision{}
+#content .vision .group-vision{padding-top: 50px;}
+#content .vision .group-vision img{margin-left: -5%;}
+#content .vision .group-vision h2{margin-top: -2px;text-align: center;}
+#content .vision .box-text h2{padding: 0 15%;text-align: center;padding-top: 15px;}
+#content .vision .box-icon-brecket{padding-top: 30px;}
+#content .vision .box-icon-brecket img{margin: 0;width: 60px;}
+
+/********************************************************** Our mission *************************************************/
+#content .mission .group-mission{padding-top: 50px;}
+#content .mission .box-img-text-left{position: relative;height: 100%;overflow: hidden;}
+#content .mission .box-img-text-left .box-img{overflow: hidden;width: 100%;height: 100%;}
+#content .mission .box-img-text-left .box-img img{height: 100%;width: 100%;object-fit: cover;}
+
+#content .mission .box-img-text-right{padding-top: 30px;}
+#content .mission .box-img-text-right img{margin-left: 7%;}
+#content .mission .box-img-text-right h2{margin-top: -2px;}
+/*#content .mission .box-img-text-right ul{padding: 0;}
+#content .mission .box-img-text-right ul li .icon-left{float: left;}
+#content .mission .box-img-text-right ul li .icon-left img{width: 20px;margin-top: 8px;}
+#content .mission .box-img-text-right ul li .text-right{padding: 20px 80px 0 35px;text-align: left;}*/
+
+
+
+#content .our-mission ul{padding: 0;}
+#content .our-mission ul li{position: relative;margin-top: 25px;float: left;width: 100%;padding-left: 30px;}
+#content .our-mission ul li:after{
+	content: '';
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+
+/********************************************************** Our Objective *************************************************/
+#content .object{margin-top: 50px;}
+#content .object .group-object{padding-top: 50px;}
+#content .object .group-object .icon-text img{margin-left: -12%;}
+#content .object .group-object .icon-text h2{margin-top: -2px}
+#content .object .group-object .row{padding-bottom: 50px;}
+#content .object .group-object h2{    padding: 0 15%;}
+#content .object .box-icon-brecket{padding-top: 30px;}
+#content .object .box-icon-brecket img{margin: 0;width: 60px;}
+/*#content .object ul{padding: 0 20%;}
+#content .object ul li .box-img-text{padding-bottom: 20px;}
+#content .object ul li .box-img-text img{padding-right: 15px;}
+
+
+#content .our-object ul{padding: 0; margin-left: 25px;margin-right: 25px;}
+#content .our-object ul li{position: relative;margin-top: 15px;float: left;width: 100%;padding-left: 30px;text-align: left;}
+#content .our-object ul li:before{
+	content: '';
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	/*margin-left: -20px;*/
+	top: 8px;
+	left: 0;
+}*/
+
+/********************************************************** Our Team *************************************************/
+#content .team{background-color: #F7F3EC;}
+#content .team .group-team{padding-top: 50px;}
+#content .team .icon-text img{margin-left: -4%;}
+#content .team .icon-text h2{margin-top: -2px;margin-bottom: 20px;}
+#content .team .box-group-img-discover{overflow: hidden;width: 100%;}
+#content .team .box-group-img-discover .box-img{width: 270px;height: 350px;}
+#content .team .box-group-img-discover .box-img img{}
+#content .team .test-hover{position: absolute;width: 100%;text-align: center;}
+#content .team .test-hover h3{margin-top: -5px;}
+#content .team{background-color: #F7F3EC;}
+#content .team .padd{margin-bottom: 30px;}
+#content .team .box-dis-hover{opacity: 0;transition: 0.5s;/*width: 370px;*/width: 270px;height: 100%;position: absolute;top: 0;}
+#content .group-team .test-hover h3{margin-top: -1px;margin-left: -20px;}
+#content .padd:hover .box-dis-hover{opacity: 1;}
+#content .padd img{transition: 0.7s;}
+#content .padd:hover img{-moz-transform: scale(1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);}
+
+
+#content .team .button button{margin-top: 50px;margin-bottom: 20px;margin-left: -15px;}
+#content .team .button button:hover{
+	color: #fff;
+	background-color: #FAAD1D;
+}
+#content .team .button button{opacity: 1;}
+#content .team .filter-img:hover .button{display: flex;justify-content: center;align-items: center;}
+#content .test-hover{
+	bottom: -100px;
+	transition: all 0.7s;
+}
+#content .padd{
+	overflow: hidden;
+}
+#content .padd:hover .test-hover{
+	bottom: 20px;
+}
+#content .team .filter-img:hover .button button{opacity: 1;}

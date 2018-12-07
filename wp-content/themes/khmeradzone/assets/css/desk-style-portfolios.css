@@ -1,0 +1,23 @@
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Sub Discover Our Portfolios We Did (Home + Portflios Pages) 
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .discover .group-discover{padding-top: 50px;}
+#content .discover .group-discover img{margin-left: -10%;}
+#content .discover .group-discover h2{margin-top: -2px;padding-bottom: 30px;}
+#content .discover .paddb{padding:0;}
+#content .discover .box-img-text{overflow: hidden;}
+#content .discover .box-img-text .box-img{overflow: hidden;}
+#content .discover .box-img-text .box-img img{width: 100%;}
+#content .discover .box-img-text .box-img .box-gra-text-hover{width: 100%;height: 100%;position: absolute;top: 0;}
+#content .discover .box-img-text .box-gra-text-hover{position: absolute;top: 0;left:0;width: 100%;height: 100%;}
+#content .discover .box-img-text .box-gra-text-hover .box-text{position: relative; margin-top: 26%;color: #ffffff;}
+#content .discover .box-img-text .box-gra-text-hover .box-text h4{padding: 10px 10%;font-size: 26px;line-height: 35px;}
+#content .discover .box-img-text .box-gra-text-hover .box-text p{}
+#content .discover .box-gra-text-hover{opacity: 0;transition: 0.5s;}
+#content .discover .paddb:hover .box-gra-text-hover{opacity: 1;}
+#content .discover .paddb img{transition: 0.7s;}
+#content .discover .paddb:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}
+#content .discover .button button{}

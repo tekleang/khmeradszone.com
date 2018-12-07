@@ -1,0 +1,25 @@
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content Event Page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .grand .group-grand{padding-top: 50px;}
+#content .grand .padd{padding-bottom: 30px;}
+#content .grand .padd a{text-decoration: none;}
+#content .grand .padd p{color: #444;}
+#content .grand .box-img{overflow: hidden;}
+#content .grande .box-img img{width: 100%;height: 100%;}
+#content .grand .box-dis-hover{opacity: 0;transition: 0.5s;width: 370px;height: 231px;position: absolute;top: 0;}
+#content .padd:hover .box-dis-hover{opacity: 1;}
+#content .padd img{transition: 0.7s;}
+#content .padd:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}
+#content .grand .box-text p{padding-top: 10px;}
+
+/*pagination*/
+.pagination {width: 100%;margin-top: 0px;margin-bottom: 40px;text-align: center;}
+.pagination .page ul li {list-style: none;display: inline;font-size: 14px;color: #fff;}
+.pagination .page li a {margin-right: 10px;padding: 10px 21px;font-size: 14px;color: #333;border: 1px solid #333;}
+.pagination .page li a img{width: 20px;}
+.pagination .page li a.prev-disabled, .pagination .page li a.next-disabled {pointer-events: none;cursor: default;}
+.pagination .page li .current{border: 1px solid #FAAD1D;color: #FAAD1D;}

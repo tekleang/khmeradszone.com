@@ -1,0 +1,25 @@
+
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+*   Blog Content Services
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .release{}
+#content .release h2{text-align: center;padding-bottom: 10px;}
+#content .release .box-img-text{padding-bottom: 25px;}
+#content .release .box-img-text .box-img{height: 300px;overflow: hidden;position: relative;}
+#content .release .box-img-text .box-img img{height: 100%;width: 100%;object-fit: cover;}
+#content .release .box-text{padding-left: 25px;padding-right: 25px;}
+#content .release .box-text p{padding-top: 15px;}
+#content .release .button button{
+    width: 140px;
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid #FAAD1D;
+    color: #FAAD1D;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}

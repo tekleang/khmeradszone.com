@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*responsive with screet devices*/
+/*laptop HD*/
+@media (min-width:1301px) and (max-width:1500px) {
+    h1{font-size: 35px !important;}
+    .box-text-button{margin-bottom: 4% !important;}
+    h4{font-size: 16px !important;}
+}
+
+
+@media (min-width:768px) and (max-width:1300px) {
+    h1{font-size: 32px !important;}
+    h4{font-size: 16px !important;}
+
+}
+@media (min-width:1024px) and (max-width:1299px){
+    .meida-box-group-fact-right{padding-left: 125px;}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) and (max-width:1024px)  {
+    #content,
+    #footer{overflow-x: hidden;}
+    h1{font-size: 32px !important;}
+    h2{font-size: 20px !important;}
+    h4{font-size: 14px !important;}
+
+    #header .header-top ul{padding-right: 20px;}
+    #navbar .name-logo{padding-left: 10px;}
+    #header .navbar-collapse {padding: 0 20px;}
+
+    /*home page*/
+    .meida-banner-home{height: 500px;}
+    .meida-banner-home img{max-width: none !important;height: 100% !important;}
+    #content .media-text-banner-home{margin-bottom: 67%;}
+    /*We Are an Event Planning Agency*/
+    #content .box-group-icon{height: 310px !important;}
+    #content .hei-img-agency {height: 60px;}
+    .media-agency-p{padding: 0 8px !important;}
+    .meida-box-group-fact-right{margin-left: 405px !important;}
+    .fact .box-img-text .box-text p{padding-right:30px;}
+    #content .agency .box-icon-text .box-text p{padding: 0 5px;}
+
+    /*Discover*/
+    #content .discover .row{margin: 0 auto;}
+    #content .discover .box-dis-hover h4{font-size: 15px !important;line-height: 20px !important;padding: 0 !important;}
+    #content .discover .button button{margin-top: 0 !important;}
+    /*Client’s Testimonail*/
+    .media-box-client h3{padding-left: 5px;padding-right: 5px;}
+    .media-client-p{padding: 20px 15px !important;}
+
+    /*partner*/
+    .media-bog-h2-partner{margin-bottom: 20px;}
+    #content .group-partner .padd{margin-top: -10px;}
+
+    /*About page*/
+    .carousel{height: 500px;}
+    .carousel img{width: auto !important;margin-left: -80%;}
+    .media-overview-box-text{padding-left: 30px;}
+    .media-text-overview-right{margin-top: 120% !important;}
+    .media-gradient-mission{width: 360px !important;}
+    .media-object-text-p{padding: 0 15%;}
+    .media-gradient-team{width: 165px !important;}
+    #content .team .media-button-team button{width: 128px !important;height: 35px;margin-left: -30px;font-size: 12px !important;}
+    #content .team .test-hover h3{font-size: 15px !important;}
+    .media-mission-p-padd{padding-right: 20px !important;}
+    #content .team .test-hover h3{font-size: 14px !important;margin-left: -28px;}
+
+    /*services page*/
+    .media-box-text-media{padding: 0 30px;margin-top: -35px;}
+
+    /*Event*/
+    .media-gradient-tab-grand{width: 230px !important;height: 145px !important;}
+
+
+    /*careers page*/
+    .media-sale-manager{width: 80%;}
+    .media-tab-padd-text{padding-right: 30px;padding-left: 30px;}
+
+
+    /*contant page*/
+    .media-form-paddd-p{padding-left: 20px;padding-right: 20px;}
+
+
+    /*footer*/
+    #footer .map .box-map{height:250px;margin: -6px;}
+    .media-footer-text-p{display: none;}
+    .media-footer-about-ul li div{margin-top: 15px !important;}
+    .laste1-left{padding-right: 5px !important;}
+    .media-footer-tel{margin-left: 30px !important;}
+    .media-footer-socil-icon{width: 100%;}
+    .media-footer-socil-icon img{margin-top: -60%;}
+    /*.media-box-menu ul{margin-top: -50px !important;}*/
+
+
+    .media-quick-post-footer{display: none;}
+    .box-media-tablate{display: block;}
+    .media-quick{
+        margin-left: -120px;
+        float: left;
+    }
+    .meida-about{
+        width: 50%;
+    }
+    .media-footer-row{padding-top: 50px !important;}
+
+}   
+
+/* landscape phone */
+@media (min-width:480px) and (max-width:767px) {
+   
+}
+
+
+
+/* Portrait phone */
+@media (max-width:479px) {
+  
+}
+
+
+

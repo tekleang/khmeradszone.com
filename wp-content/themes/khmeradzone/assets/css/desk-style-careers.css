@@ -1,0 +1,59 @@
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content CAREERS Page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .sale{ background-color: #F7F3EC;}
+#content .sale .group-sale{margin-top: 30px; border-bottom: 1px solid #dadada;}
+#content .sale .group-sale:last-child{ border-bottom: none;}
+#content .sale .group-sale .row{padding-bottom: 30px;}
+/********************************************** Career Title *************************************************/
+#content .sale .career ul{padding: 0;}
+#content .sale .career ul li .text-left{padding: 10px 0 0 0;}
+#content .sale .career ul li .text-right{padding: 10px 0 0 0; margin-left: -15px;text-align: left;}
+/********************************************** Job Description *************************************************/
+#content .sale .job p{padding-top: 8px;}
+
+/********************************************** Contact Information *************************************************/
+#content .sale .information ul{padding: 0;}
+#content .sale .information ul li{float: left;width: 100%;margin-top: 15px;}
+#content .sale .information ul li .text-left{width:42%;float:left;}
+#content .sale .information ul li .text-right{width:58%;float:left;text-align: left;}
+
+/********************************************** Job Responsibility *************************************************/
+#content .responsibility ul{padding: 0;}
+#content .responsibility ul li{position: relative;margin-top: 15px;float: left;width: 100%;padding-left: 30px;}
+#content .responsibility ul li:after{
+	content: '';
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+.underline-1px-white:last-child{background:none;}
+
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Address ( Contact + FAQs + Careers pages)
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+
+#content .address{background-color: #F7F3EC;}
+#content .address .row{padding: 0 15px;}
+#content .address .col-sm-4{padding: 0;}
+#content .address .padd1{background-color: #EE4036; height: 230px;}
+#content .address .padd2{background-color: #F05A28; height: 230px;}
+#content .address .padd3{background-color: #FAAD1D; height: 230px;}
+#content .address .padd1 .box-icon-img,
+#content .address .padd2 .box-icon-img,
+#content .address .padd3 .box-icon-img{height: 93px;width: 93px;margin-left: 35%;padding: 30px 0;}
+#content .address .padd1 .box-icon-img img,
+#content .address .padd2 .box-icon-img img,
+#content .address .padd3 .box-icon-img img{width: 100%;}
+#content .address .padd1 p,
+#content .address .padd2 p,
+#content .address .padd3 p{padding: 50px 30px 0 30px;color: #FFFFFF;}

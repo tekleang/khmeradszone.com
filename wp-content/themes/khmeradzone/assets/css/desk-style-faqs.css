@@ -1,0 +1,48 @@
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content FAQs Page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .faq{background-color: #F7F3EC;}
+#content .faq .group-faq{padding-top: 50px;}
+#content .faq .group-faq img{margin-left: 7%;}
+#content .faq .group-faq h2{margin-top: -2px;}
+/*#content .faq .group-faq p{padding: 30px 15%;}*/
+#content .question{
+    color:var(--maincolor);
+    padding: 18px;
+    width: 100%;
+    color: #FAAD1D;
+   	border-top:1px solid #e0e0e0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold; 
+}
+#content .answer{
+	text-align: left;
+    padding: 10px 20px;
+}
+#content .answer p{padding-right: 40px;font-weight: normal;text-transform: lowercase;}
+
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+*   Blog Address ( Contact + FAQs + Careers pages)
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+
+#content .address{background-color: #F7F3EC;}
+#content .address .row{padding: 0 15px;}
+#content .address .col-sm-4{padding: 0;}
+#content .address .padd1{background-color: #EE4036; height: 230px;}
+#content .address .padd2{background-color: #F05A28; height: 230px;}
+#content .address .padd3{background-color: #FAAD1D; height: 230px;}
+#content .address .padd1 .box-icon-img,
+#content .address .padd2 .box-icon-img,
+#content .address .padd3 .box-icon-img{height: 93px;width: 93px;margin-left: 35%;padding: 30px 0;}
+#content .address .padd1 .box-icon-img img,
+#content .address .padd2 .box-icon-img img,
+#content .address .padd3 .box-icon-img img{width: 100%;}
+#content .address .padd1 p,
+#content .address .padd2 p,
+#content .address .padd3 p{padding: 50px 30px 0 30px;color: #FFFFFF;}

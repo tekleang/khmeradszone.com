@@ -1,0 +1,21 @@
+/*#menu-comments,
+#menu-pages,
+#menu-media,
+#menu-posts,
+#wp-admin-bar-new-content,
+#update-nag,
+#wpfooter,
+#adminmenu li.wp-menu-separator,
+#wp-admin-bar-wp-logo,
+#dashboard-widgets-wrap,
+#screen-meta-links .screen-meta-toggle,
+#update-nag, .update-nag,
+#menu-tools{}
+#adminmenu li {
+    margin: 10px 0;
+}
+#menu-users{
+	 margin: 0px !important;
+}*/
+
+#wpadminbar ul #wp-admin-bar-wp-logo{display: none !important}

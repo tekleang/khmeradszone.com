@@ -1,0 +1,40 @@
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+*   Blog Content Event
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .event{}
+#content .event .box{display: flex;margin-bottom: 0;}
+#content .event .box .box-img-text{flex-grow: 1;margin: 20px;text-align: center;}
+#content .event .box-img-text .box-img{height: 300px;overflow: hidden;position: relative;}
+#content .event .box .box-img-text .box-img img{height: 100%;width: 100%;object-fit: cover;}
+#content .event .box-text{padding-top: 10px;}
+#content .event .box-text h3{line-height: 25px;font-weight: normal;}
+/*address*/
+#content .address .box-text{position: relative;padding-left: 10px;padding-right: 10px;text-align: left;}
+#content .address .box-icon-address .box-icon{width: 94px;height: 68px;margin-top: 15px;}
+#content .address .box-icon-address .box-text{padding: 20px;}
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+*   Blog Content Event-detail & Services-detail
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+#content .grand{}
+#content .grand h2{padding: 0 30px 20px 30px;}
+.underline-center {
+    text-align: center;
+    justify-content: center;
+}
+.underline-1px-white {
+    width: 90%;
+    margin-left: 5%;
+    height: 1px;
+    background-color: #e0e0e0;
+    display: block;
+}
+#content .grand .box-text-img-post{margin-top: 30px;}
+#content .grand .box-text-img-post .box-img{height: 300px;overflow: hidden;position: relative;}
+#content .grand .box-text-img-post .box-img img{width: 100%;height: 100%;object-fit: cover;position: absolute;}
+#content .grand .box-text-post img{padding: 15px 0;}
+#content .grand .box-text{padding: 0 30px;margin-top: 15px;}
+#content .grand .box-text p{margin-bottom: 15px;}
