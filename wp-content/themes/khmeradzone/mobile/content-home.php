@@ -222,7 +222,7 @@
 
 
 			<!-- Client’s Testimonail -->
-			<div class="client padding-0">
+			<!-- <div class="client padding-0">
 				<div class="group-client padding-50-0" style="padding-bottom: 20px;">
 					<h2>Client’s <span>Testimonail</span></h2>
 
@@ -265,7 +265,7 @@
 						  endif;
 						  ?>
 
-							<!-- <div class="slick-testimonial" style="padding-top: 15px;">
+							<div class="slick-testimonial" style="padding-top: 15px;">
 								<div class="testimonial">
 									<div class="sub-testimonial">
 										<div class="inside-testimonial point-bullet-down">
@@ -311,13 +311,13 @@
 										</div>
 									</div>
 								</div>
-							</div> -->
+							</div>
 
 
 						</div>
 
 				</div>
-			</div>
+			</div> -->
 
 
 

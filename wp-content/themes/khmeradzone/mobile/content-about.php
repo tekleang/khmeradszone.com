@@ -63,7 +63,7 @@
 				</div>
 
 				<!-- Our Mission -->
-				<div class="mission padding-0">
+				<!-- <div class="mission padding-0">
 					<div class="group-mission padding-50-0" style="padding-bottom: 20px;">
 						<h2>Our <span>Mission</span></h2>
 						<div class="box-img" style="">
@@ -84,12 +84,12 @@
 						</div>
 
 					</div>
-				</div>
+				</div> -->
 
 				<!-- Our Objective -->
 				<div class="objective padding-0" style="background-color: #F1E7C4;">
 					<div class="objective-vision padding-50-0" style="padding-bottom: 20px;">
-						<h2>Our <span>Objective</span></h2>
+						<h2>Our <span>Mission</span></h2>
 
 						<div class="box">
 							<div class="group-box">

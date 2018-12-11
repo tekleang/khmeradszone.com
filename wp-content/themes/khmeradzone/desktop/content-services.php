@@ -48,11 +48,11 @@
 									 <?php echo SetTextColor('<h2>',get_the_title(),'</h2>');?>
 								</div>
 								<p><?php _e(shortenText(get_field('description'),500));?></p>
-								<a href="<?php _e(get_permalink());?>">
+								<!-- <a href="<?php _e(get_permalink());?>">
 									<div class="button">
 										<button>View More</button>
 									</div>
-								</a>
+								</a> -->
 							</div>
 							<div class="col-sm-6 padd main-box-img">
 								<div class="box-img">
@@ -117,7 +117,7 @@
 
 			<!-- Roadshow & Launching Activities -->
 		 <!-- Press Release For Media -->
-		 <div class="container-fluid services text-left">
+		 <!-- <div class="container-fluid services text-left">
 			  <div class="container group-services">
 					<div class="row">
                    <?php
@@ -165,7 +165,7 @@
 
 					</div>
 			  </div>
-		 </div>
+		 </div> -->
 
 
 	</div>

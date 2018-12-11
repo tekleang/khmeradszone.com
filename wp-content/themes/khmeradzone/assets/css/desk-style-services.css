@@ -14,14 +14,14 @@
 /*even*/
 #content .services .section-services:nth-child(even) .box-text{float: right;}
 #content .services .section-services:nth-child(even) .main-box-img{float: right;}
-#content .services .section-services .box-text .box-release img{margin-left: 30%;padding-top: 30px;}
+#content .services .section-services .box-text .box-release img{margin-left: 25%;padding-top: 30px;}
 #content .services .section-services .box-text .box-release h2{margin-top: -2px}
 #content .services .section-services .box-text p{padding-top: 10px;}
 #content .services .section-services .box-img{overflow: hidden;}
 #content .services .section-services .box-img img{width: 100%;height: 100%;}
 
 /****************************************** Billboard Media Buying *************************************************/
-#content .services .section-services .box-text .box-billboard img{margin-left: 43%;padding-top: 30px;}
+#content .services .section-services .box-text .box-billboard img{margin-left: 20%;padding-top: 30px;}
 #content .services .section-services .box-text .box-billboard h2{margin-top: -2px}
 
 /****************************************** TV Media Buying *************************************************/

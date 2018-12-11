@@ -87,6 +87,7 @@
 												<p> E-mail:<a href="mailto:<?php _e(get_field('email','option')); ?>" title=""><?php _e(get_field('email_contact','option')); ?></a></p>
 
 												<a href="<?php _e(get_field('website','option')); ?>"><p><?php _e(get_field('website_contact','option')); ?></p></a>
+												<a href="<?php _e(get_field('facebook_link_contact','option')); ?>" target="_blank"><?php _e(get_field('facebook_name_contact','option')); ?></a>
 											</div>
 										</li>
 									</ul>
