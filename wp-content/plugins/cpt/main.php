@@ -154,7 +154,7 @@ if (function_exists('acf_add_options_page')) {
         'position' => 99,
     ));
     acf_add_options_sub_page(array('parent' => 'acf-options-generals', 'title' => 'Hero Banner'));
-    acf_add_options_sub_page(array('parent' => 'acf-options-generals', 'title' => 'Home'));
+   // acf_add_options_sub_page(array('parent' => 'acf-options-generals', 'title' => 'Home'));
     acf_add_options_sub_page(array('parent' => 'acf-options-generals', 'title' => 'Real Facts'));
     acf_add_options_sub_page(array('parent' => 'acf-options-generals', 'title' => 'About Us'));
     acf_add_options_sub_page(array('parent' => 'acf-options-generals', 'title' => 'Services'));

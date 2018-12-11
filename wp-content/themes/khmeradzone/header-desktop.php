@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
-    <meta name="keyword" content="">
+	 <meta name="keyword" content="<?php _e(get_field('meta_keyword_'.get_template_name(),'option')); ?>">
+	 <meta name="description" content="<?php _e(get_field('meta_description_'.get_template_name(),'option')); ?>">
     <meta name="og:type"        content="website">   
     <meta name="fb:app_id"      content=""/>
-    <meta name="og:description" content="">
-    <meta name="og:title"       content="">
-    <meta name="og:url"         content="">
+	 <meta name="og:title"       content="<?php _e(get_the_title()); ?>">
+	 <meta name="og:url"         content="<?php _e(get_field('logo_desktop','option')); ?>">
     <link rel="shortcut icon" href="<?php _e(get_field('shortcut_icon','option')); ?>"/>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

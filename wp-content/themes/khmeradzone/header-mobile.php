@@ -4,9 +4,12 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>"/>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" /> 
     <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
-    <meta name="dejsion" content="">
-    <meta name="keyword" content="">
-    <title>
+	 <meta name="keyword" content="<?php _e(get_field('meta_keyword_'.get_template_name(),'option')); ?>">
+	 <meta name="description" content="<?php _e(get_field('meta_description_'.get_template_name(),'option')); ?>">
+	 <meta name="og:title"       content="<?php _e(get_the_title()); ?>">
+	 <meta name="og:url"         content="<?php _e(get_field('logo_desktop','option')); ?>">
+	 <link rel="shortcut icon" href="<?php _e(get_field('shortcut_icon','option')); ?>"/>
+	 <title>
         <?php wp_title(' '); ?>
         <?php if(wp_title(' ', false)) { echo ' | '; } ?><?php bloginfo('name'); ?>
     </title>

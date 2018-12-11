@@ -2,55 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8660c12c-34de-4dd2-9a34-c4c5f2cd39d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-flex-events.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-flex-portfolios.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-flex-services.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-flex-events.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-flex-portfolios.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-flex-services.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-rest-api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-careers.css" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-careers.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-services.css" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-services.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-about.css" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/config.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-about.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-careers.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-careers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-contact.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cpt/main.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cpt/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-events.css" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-events.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-events.css" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-events.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-events.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-events.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-faqs.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-faqs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-portfolios.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-portfolios.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-services.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/footer-desktop.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/footer-desktop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/footer-mobile.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/footer-mobile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-desktop.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-desktop.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-mobile.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-mobile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-about.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-careers.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-careers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-events.php" afterPath="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-events.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,48 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content-about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-about.php">
+      <file leaf-file-name="header-desktop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/header-desktop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="75" column="43" lean-forward="false" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+            <state relative-caret-position="275">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile-style-about.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-about.css">
+      <file leaf-file-name="header-mobile.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/header-mobile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="29" column="114" lean-forward="false" selection-start-line="29" selection-start-column="114" selection-end-line="29" selection-end-column="114" />
+            <state relative-caret-position="325">
+              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile-style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2275">
-              <caret line="93" column="84" lean-forward="false" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="84" />
-              <folding>
-                <marker date="1541660572834" expanded="true" signature="5445:5472" ph="..." />
-                <marker date="1541660572834" expanded="true" signature="7135:7194" ph="..." />
-                <marker date="1541660572834" expanded="true" signature="7135:7297" ph="..." />
-                <marker date="1541660572834" expanded="true" signature="7135:7299" ph="..." />
-                <marker date="1541660572834" expanded="true" signature="7177:7194" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,28 +82,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/asset/css/main.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-services.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-services.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-services.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-portfolios.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-contact.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/asset/css/hambergur-menu.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-careers.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-contact.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-events.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-careers.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-faqs.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-faqs.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-events.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/cpt/main.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-flex-porfolios.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-services.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-about.php" />
@@ -181,7 +111,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-flex-careers.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-careers.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-flex-events.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-flex-portfolios.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-flex-events.php" />
@@ -189,11 +118,19 @@
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/footer-desktop.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/footer-mobile.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-desktop.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-mobile.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-about.css" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-events.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-events.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-events.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-events.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-careers.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cpt/main.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-desktop.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khmeradzone/header-mobile.php" />
       </list>
     </option>
   </component>
@@ -241,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -264,6 +202,13 @@
               <item name="khmeradszone.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="khmeradszone.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cpt" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="khmeradszone.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="khmeradszone.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -280,6 +225,15 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="khmeradzone" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="khmeradszone.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="khmeradszone.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="khmeradzone" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="asset" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="khmeradszone.com" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +264,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,26 +307,28 @@
       <workItem from="1541666886923" duration="5555000" />
       <workItem from="1541688140778" duration="9099000" />
       <workItem from="1541773957675" duration="622000" />
+      <workItem from="1544503438385" duration="5233000" />
+      <workItem from="1544517025678" duration="1256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64142000" />
+    <option name="totallyTimeSpent" value="70631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1308" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1862" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32247558" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" x="517" y="47" width="332" height="634" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26823795" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" x="517" y="47" width="332" height="634" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22247191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -413,61 +368,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/asset/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/asset/css/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-services.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="159" column="57" lean-forward="true" selection-start-line="159" selection-start-column="57" selection-end-line="159" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-portfolios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-portfolios.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/asset/css/hambergur-menu.css" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-contact.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-events.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -499,24 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-careers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-faqs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cpt/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="206" column="39" lean-forward="true" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -531,13 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-events.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -566,13 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="13" column="78" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-careers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="130" column="49" lean-forward="true" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -627,24 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="130" column="20" lean-forward="false" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-single-flex-portfolios.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="76" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -690,24 +552,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/header-desktop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-625">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/header-mobile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -721,13 +569,49 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2275">
-          <caret line="93" column="84" lean-forward="false" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="84" />
+          <caret line="93" column="84" lean-forward="false" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
           <folding>
-            <marker date="1541660572834" expanded="true" signature="5445:5472" ph="..." />
-            <marker date="1541660572834" expanded="true" signature="7135:7194" ph="..." />
-            <marker date="1541660572834" expanded="true" signature="7135:7297" ph="..." />
-            <marker date="1541660572834" expanded="true" signature="7135:7299" ph="..." />
-            <marker date="1541660572834" expanded="true" signature="7177:7194" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4340:4351" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4340:4362" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4340:4372" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4444:6055" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4483:6045" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4512:4675" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4535:4562" ph="..." />
+            <marker date="1544501236493" expanded="false" signature="4631:4646" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4704:6034" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4730:6013" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="4847:5050" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5129:6000" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5171:5960" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5220:5940" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5274:5927" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5304:5408" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5330:5356" ph="..." />
+            <marker date="1544501236493" expanded="false" signature="5367:5392" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5473:5526" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5568:5904" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5583:5610" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5583:5775" ph="..." />
+            <marker date="1544501236493" expanded="false" signature="5612:5627" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5634:5655" ph="..." />
+            <marker date="1544501236493" expanded="false" signature="5697:5712" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5719:5746" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="5823:5879" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6161:7703" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6216:7693" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6245:6467" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6268:6295" ph="..." />
+            <marker date="1544501236493" expanded="false" signature="6420:6435" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6505:7680" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6535:7666" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6658:6875" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="6960:7637" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="7093:7527" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="7273:7332" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="7273:7435" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="7273:7437" ph="..." />
+            <marker date="1544501236493" expanded="true" signature="7315:7332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -744,14 +628,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="29" column="114" lean-forward="false" selection-start-line="29" selection-start-column="114" selection-end-line="29" selection-end-column="114" />
+        <state relative-caret-position="455">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="65" column="27" lean-forward="true" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="186" column="18" lean-forward="false" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
+          <folding>
+            <marker date="1544504414730" expanded="true" signature="6738:6753" ph="..." />
+            <marker date="1544504414730" expanded="true" signature="6881:6896" ph="..." />
+            <marker date="1544504414730" expanded="true" signature="7083:7098" ph="..." />
+            <marker date="1544504414730" expanded="true" signature="7854:7860" ph="•" />
+            <marker date="1544504414730" expanded="true" signature="7860:7866" ph="•" />
+            <marker date="1544504414730" expanded="true" signature="7866:7872" ph="•" />
+            <marker date="1544504414730" expanded="true" signature="10738:10868" ph="..." />
+            <marker date="1544504414730" expanded="true" signature="10767:10853" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/desk-style-events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/assets/css/mobile-style-events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/desktop/content-careers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4000">
+          <caret line="162" column="67" lean-forward="false" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-careers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4300">
+          <caret line="175" column="27" lean-forward="false" selection-start-line="175" selection-start-column="27" selection-end-line="175" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-single-flex-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-single-flex-portfolios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-single-flex-events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-portfolios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/mobile/content-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1544501236608" expanded="true" signature="7910:7928" ph="..." />
+            <marker date="1544501236608" expanded="true" signature="7992:8624" ph="..." />
+            <marker date="1544501236608" expanded="true" signature="8034:8606" ph="..." />
+            <marker date="1544501236608" expanded="true" signature="8098:8402" ph="..." />
+            <marker date="1544501236608" expanded="false" signature="8124:8150" ph="..." />
+            <marker date="1544501236608" expanded="false" signature="8201:8219" ph="..." />
+            <marker date="1544501236608" expanded="false" signature="8298:8343" ph="..." />
+            <marker date="1544501236608" expanded="true" signature="8441:8587" ph="..." />
+            <marker date="1544501236608" expanded="true" signature="8477:8567" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cpt/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="152" column="28" lean-forward="true" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/header-desktop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khmeradzone/header-mobile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>

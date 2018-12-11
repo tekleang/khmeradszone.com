@@ -65,11 +65,21 @@
 				</div>
 
 				<!-- Sale Manager -->
-				<?php for($i=0;$i<1;$i++){?>
+            <?php
+            $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+            $args  = array (
+                'post_type' => 'flex-careers',
+                'posts_per_page' => -1,
+                'paged' => $paged,
+            );
+            query_posts($args);
+            if(have_posts()) :
+            while (have_posts()) : the_post(); ?>
+
 					<div class="mycareer">
 						<div class="sale padding-0">
 							<div class="group-sale">
-								  <h2><span>Sale Manager</span></h2>
+								  <h2><span><?php _e(get_the_title()); ?></span></h2>
 
 									  <div class="box">
 											<div class="group-box">
@@ -78,27 +88,35 @@
 												 <ul class="box-text">
 													<li>
 														<div class="text-1">Location</div>
-														<div class="text-3">: Phnom Penh</div>
+														<div class="text-3">: <?php _e(get_field('location')); ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">Type of Employment</div>
-														<div class="text-3">: Full-Time</div>
+														<div class="text-3">: <?php _e(get_field('type_of_employment')); ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">Published Date</div>
-														<div class="text-3">: September 9, 2018</div>
+														<div class="text-3">: <?php
+                                              $dateformatstring = "M d, Y";
+                                              $unixtimestamp = strtotime(get_field('published_date'));
+                                              echo date_i18n($dateformatstring, $unixtimestamp);
+                                              ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">Close Date</div>
-														<div class="text-3">: October 10, 2018</div>
+														<div class="text-3">: <?php
+                                              $dateformatstring = "M d, Y";
+                                              $unixtimestamp = strtotime(get_field('close_date'));
+                                              echo date_i18n($dateformatstring, $unixtimestamp);
+                                              ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">Hiring</div>
-														<div class="text-3">: 2</div>
+														<div class="text-3">: <?php _e(get_field('hiring')); ?></div>
 													</li>
 												</ul>
 
@@ -108,7 +126,7 @@
 									  <div class="box">
 											<div class="group-box">
 												 <h3>Job Description</h3>
-												 <p style="margin-right: 15%;">Khmer AdsZone is a professional team works and advertising agency in Cambodia. We provide Planning, Media Placement, and Monitoring for TVs & Radio channels, TVC & Radio production, Event Management, Activation, Creative concept & design development Marketing Executive.</p>
+												 <p style="margin-right: 15%;"><?php _e(get_field('job_description')); ?></p>
 											</div>
 									  </div>
 
@@ -120,27 +138,27 @@
 												 <ul class="box-text">
 													<li>
 														<div class="text-1">Contact Person</div>
-														<div class="text-3">: Khmer AdsZone Co,. Ltd.</div>
+														<div class="text-3">: <?php _e(get_field('contact_person')); ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">Phone</div>
-														<div class="text-3">: +855 93 855 512</div>
+														<div class="text-3">: <?php _e(get_field('phone')); ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">E-mail</div>
-														<div class="text-3">: gm.adszone@gmail.com</div>
+														<div class="text-3">: <?php _e(get_field('e-mail')); ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">Website</div>
-														<div class="text-3">: www.khmeradszone.com</div>
+														<div class="text-3">: <?php _e(get_field('website')); ?></div>
 													</li>
 
 													<li>
 														<div class="text-1">Address</div>
-														<div class="text-3">: 45Z, 371, Trapeang Chhuk, Teuk Thla, Sen Sok, Phnom Penh, Cambodia.</div>
+														<div class="text-3">: <?php _e(get_field('address')); ?></div>
 													</li>
 												</ul>
 											</div>
@@ -151,132 +169,20 @@
 											<div class="group-box">
 												 <h3>Job Responsibility</h3>
 
-												 <ul>
-												 	<li>Report to marketing manager for activities’ sales </li>
-												 	<li>Generating new clients creating presentation proposals to clients and media planning arrangement</li>
-												 	<li>To develop advertising packages to meet customer budget,</li>
-												 	<li>Find the costumer’s needs and budget expectation</li>
-												 	<li>Meeting sales quotas by bringing in new business clients and maintaining relationship with existing clients</li>
-												 	<li>Achieve marketing goals and sales operational objectives by contributing marketing ; sales information and recommendations to strategic plans ; reviews; preparing and completing action plans; implementing production, quality; customer-service standards; and resolving problems</li>
-												 	<li>Develop national and international event proposals to propose to Clients</li>
-												 	<li>Communicated and negotiate with Private sectors, Government sectors, NGOs & other stakeholders and B 2 B Company brand image
-
-
-
-												 	</li>
-												 </ul>
+                                     <?php _e(get_field('job_responsibility')); ?>
 
 											</div>
 									  </div>
 							</div>
 						</div>
 					</div>
-					<div class="mycareer">
-						<div class="sale padding-0">
-							<div class="group-sale">
-								  <h2><span>Senior Marketing</span></h2>
-
-									  <div class="box">
-											<div class="group-box">
-												 <h3>Career Title</h3>
-
-												 <ul class="box-text">
-													<li>
-														<div class="text-1">Location</div>
-														<div class="text-3">: Phnom Penh</div>
-													</li>
-
-													<li>
-														<div class="text-1">Type of Employment</div>
-														<div class="text-3">: Full-Time</div>
-													</li>
-
-													<li>
-														<div class="text-1">Published Date</div>
-														<div class="text-3">: September 9, 2018</div>
-													</li>
-
-													<li>
-														<div class="text-1">Close Date</div>
-														<div class="text-3">: October 10, 2018</div>
-													</li>
-
-													<li>
-														<div class="text-1">Hiring</div>
-														<div class="text-3">: 2</div>
-													</li>
-												</ul>
-
-											</div>
-									  </div>
-
-									  <div class="box">
-											<div class="group-box">
-												 <h3>Job Description</h3>
-												 <p style="margin-right: 15%;">Khmer AdsZone is a professional team works and advertising agency in Cambodia. We provide Planning, Media Placement, and Monitoring for TVs & Radio channels, TVC & Radio production, Event Management, Activation, Creative concept & design development Marketing Executive.</p>
-											</div>
-									  </div>
-
-								  
-								  	<!-- Contact Information -->
-									  <div class="box">
-											<div class="group-box">
-												 <h3>Contact Information</h3>
-												 <ul class="box-text">
-													<li>
-														<div class="text-1">Contact Person</div>
-														<div class="text-3">: Khmer AdsZone Co,. Ltd.</div>
-													</li>
-
-													<li>
-														<div class="text-1">Phone</div>
-														<div class="text-3">: +855 93 855 512</div>
-													</li>
-
-													<li>
-														<div class="text-1">E-mail</div>
-														<div class="text-3">: gm.adszone@gmail.com</div>
-													</li>
-
-													<li>
-														<div class="text-1">Website</div>
-														<div class="text-3">: www.khmeradszone.com</div>
-													</li>
-
-													<li>
-														<div class="text-1">Address</div>
-														<div class="text-3">: 45Z, 371, Trapeang Chhuk, Teuk Thla, Sen Sok, Phnom Penh, Cambodia.</div>
-													</li>
-												</ul>
-											</div>
-									  </div>
-
-									  <!-- Job Responsibility -->
-									  <div class="box responsibility">
-											<div class="group-box">
-												 <h3>Job Responsibility</h3>
-
-												 <ul>
-												 	<li>Report to marketing manager for activities’ sales </li>
-												 	<li>Generating new clients creating presentation proposals to clients and media planning arrangement</li>
-												 	<li>To develop advertising packages to meet customer budget,</li>
-												 	<li>Find the costumer’s needs and budget expectation</li>
-												 	<li>Meeting sales quotas by bringing in new business clients and maintaining relationship with existing clients</li>
-												 	<li>Achieve marketing goals and sales operational objectives by contributing marketing ; sales information and recommendations to strategic plans ; reviews; preparing and completing action plans; implementing production, quality; customer-service standards; and resolving problems</li>
-												 	<li>Develop national and international event proposals to propose to Clients</li>
-												 	<li>Communicated and negotiate with Private sectors, Government sectors, NGOs & other stakeholders and B 2 B Company brand image
 
 
-
-												 	</li>
-												 </ul>
-
-											</div>
-									  </div>
-							</div>
-						</div>
-					</div>
-				<?php } ?>  
+                <?php
+            endwhile;
+                wp_reset_query();
+            endif;
+            ?>
 
 				
 						

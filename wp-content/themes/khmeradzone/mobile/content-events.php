@@ -36,7 +36,7 @@
 						$paged = get_query_var('paged') ? get_query_var('paged') : 1;
 						$args  = array (
 						   'post_type' => 'flex-events',
-						   'posts_per_page' => -1,
+						   'posts_per_page' => 6,
 						   'paged' => $paged,
 						);
 						query_posts($args);
@@ -60,6 +60,7 @@
 
 						  <?php
 						  endwhile;
+                      echo pagination();
 						  wp_reset_query();
 						  endif;
 						  ?>

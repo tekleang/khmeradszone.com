@@ -169,3 +169,109 @@ function SetTextColor($tag1,$word,$tag2){
 
 }
 
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************************
+ *  Pagination
+ *******************************************************************************/
+////////////////////////////////////////////////////////////////////////////////
+function pagination($offset=0){
+    global $wp_query;
+
+    $URL      = stripslashes(get_pagenum_link($page - 1)).'page/';
+    $CURRENT   = get_query_var('paged') ? get_query_var('paged') : 1;
+    $PERPAGE   = intval(get_query_var('posts_per_page'));
+    $PAGES      = intval(ceil(($wp_query->found_posts - $offset) / $PERPAGE));
+    $PAGERAGE  = 5; // 3 or 5
+    $GAP    = '<li>&bull;&bull;&bull;</li>';
+
+    if($PAGES > 1){
+        if($PAGES <= $PAGERAGE){
+            $START  = 1;
+            $LOOP   = $PAGES;
+        }else{
+            if($CURRENT < $PAGERAGE){
+                $START  = 1;
+                $LOOP  = $PAGERAGE;
+                $RGAP  = $GAP;
+            }else{
+                if($PAGES > ($CURRENT + ceil($PAGERAGE / 2))){
+                    $START  = $CURRENT - floor($PAGERAGE / 2);
+                    $LOOP  = $CURRENT + floor($PAGERAGE / 2);
+                    $RGAP  = $GAP;
+                    if($CURRENT != 3){
+                        $LGAP = $GAP;
+                    }
+                }elseif($PAGES == ($CURRENT + ceil($PAGERAGE / 2))){
+                    $START  = $CURRENT - floor($PAGERAGE / 2);
+                    $LOOP  = $CURRENT + floor($PAGERAGE / 2);
+                    $LGAP  = $GAP;
+                }else{
+                    $START  = $PAGES - (ceil($PAGERAGE / 2) + 1);
+                    $LOOP  = $PAGES - 1;
+                    $LGAP  = $GAP;
+                }
+
+                // First
+                if($CURRENT > 1){
+                    $FIRST   = '<li><a href="'.$URL.'1">1</a></li>';
+                }else{
+                    $FIRST   = '<li><a href="'.$URL.'1" class="disabled">1</a></li>';
+                }
+            }
+
+            // Last
+            if($CURRENT < $PAGES){
+                $LAST   = '<li><a href="'.$URL.$PAGES.'">'.$PAGES.'</a></li>';
+            }else{
+                $LAST  = '<li class="current"><a href="'.$URL.$PAGES.'" class="disabled">'.$PAGES.'</a></li>';
+            }
+        }
+
+        // Prev
+        if($CURRENT > 1){
+            $PREV   = '<li><a href="'.$URL.($CURRENT - 1).'" class="icon prev"></a></li>';
+        }else{
+            $PREV   = '<li><a href="'.$URL.'1" class="icon prev-disabled"></a></li>';
+        }
+
+        // Next
+        if($CURRENT < $PAGES){
+            $NEXT   = '<li><a href="'.$URL.($CURRENT + 1).'" class="icon next"></a></li>';
+        }else{
+            $NEXT   = '<li><a href="'.$URL.$PAGES.'" class="icon next-disabled"></a></li>';
+        }
+
+        for($k=$START; $k<=$LOOP; $k++){
+
+            if($k<10){ $label = $k; }
+            else{ $label = $k; }
+
+            if($START==$k){
+                if($CURRENT==$k){
+                    $PAGE .= '<li class="current"><a href="'.$URL.$k.'">'.$label.'</a></li>';
+                }else{
+                    $PAGE .= '<li><a href="'.$URL.$k.'">'.$label.'</a></li>';
+                }
+            }else{
+                if($CURRENT==$k){
+                    $PAGE .= '<li class="current"><a href="'.$URL.$k.'">'.$label.'</a></li>';
+                }else{
+                    $PAGE .= '<li><a href="'.$URL.$k.'">'.$label.'</a></li>';
+                }
+            }
+        }
+        wp_reset_query();
+        if(!is_page('home')){
+            return'
+        <div class="pagination">
+          <div class="page">
+            <ul>'.$PREV.$FIRST.$LGAP.$PAGE.$RGAP.$LAST.$NEXT.'</ul> 
+          </div>
+        </div>
+      ';
+        }
+    }
+}

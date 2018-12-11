@@ -33,7 +33,7 @@
                    $paged = get_query_var('paged') ? get_query_var('paged') : 1;
                    $args  = array (
                        'post_type' => 'flex-events',
-                       'posts_per_page' => -1,
+                       'posts_per_page' => 6,
                        'paged' => $paged,
                    );
                    query_posts($args);
@@ -57,29 +57,30 @@
 
 						  <?php
 						  endwhile;
+						  	echo pagination();
 						  wp_reset_query();
 						  endif;
 						  ?>
 						  <!-- pagination	 -->
-							<div class="pagination">
-								<div class="page">
-									<ul>
-										<li><a href="#" class="icon prev-disabled">
-											<img src="<?php bloginfo('template_url'); ?>/assets/images/icon/left-arrow.svg">
-										</a></li>
-										<li><a href="#" class="current">1</a></li>
-										<li><a href="#">2</a></li>
-										<li><a href="#">3</a></li>
-										<li><a href="#">4</a></li>
-										<li><a href="#">5</a></li>
-										<li><a href="#">6</a></li>
-										<li><a href="#" class="icon next">
-											<img src="<?php bloginfo('template_url'); ?>/assets/images/icon/right-arrow.svg">
-										</a></li>
-									</ul>
-								</div>
-							</div>
-					</div>
+<!--							<div class="pagination">-->
+<!--								<div class="page">-->
+<!--									<ul>-->
+<!--										<li><a href="#" class="icon prev-disabled">-->
+<!--											<img src="--><?php //bloginfo('template_url'); ?><!--/assets/images/icon/left-arrow.svg">-->
+<!--										</a></li>-->
+<!--										<li><a href="#" class="current">1</a></li>-->
+<!--										<li><a href="#">2</a></li>-->
+<!--										<li><a href="#">3</a></li>-->
+<!--										<li><a href="#">4</a></li>-->
+<!--										<li><a href="#">5</a></li>-->
+<!--										<li><a href="#">6</a></li>-->
+<!--										<li><a href="#" class="icon next">-->
+<!--											<img src="--><?php //bloginfo('template_url'); ?><!--/assets/images/icon/right-arrow.svg">-->
+<!--										</a></li>-->
+<!--									</ul>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--					</div>-->
 				</div>
 			</div>
 
