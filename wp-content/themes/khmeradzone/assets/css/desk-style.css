@@ -314,6 +314,7 @@ ul li a:hover{
 }
 .media-quick-post-hide-tab ul li{
 	margin-right: 10px;
+    display: inline;
 }
 
 #footer .footer-buttom .about-post{}

@@ -48,7 +48,9 @@
 								<div class="box-img-text">
 									 <?php echo SetTextColor('<h2>',get_the_title(),'</h2>');?>
 									 <div class="box-img">
-										  <img src="<?php _e(get_field('thumbnail'));?>">
+										  <a href="<?php _e(get_permalink());?>">
+										  	<img src="<?php _e(get_field('thumbnail'));?>">
+										  </a>
 									 </div>
 									 <div class="box-text">
 										  <p><?php _e(shortenText(get_field('description'),300));?></p>

@@ -56,7 +56,7 @@
 							</div>
 							<div class="col-sm-6 padd main-box-img">
 								<div class="box-img">
-									<a>
+									<a href="<?php _e(get_permalink());?>">
 										<img src="<?php _e(get_field('thumbnail'));?>">
 									</a>
 								</div>
